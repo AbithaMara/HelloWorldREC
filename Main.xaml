@@ -96,14 +96,14 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,442.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="clone repository. Two developers using same main.xml. The changes done by one user should be available to other." DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,364" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Welcome" sap:VirtualizedContainerService.HintSize="353.6,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;REC&quot;]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="353.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="CSE" />
-    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="353.6,113.6" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Welcome REC" sap:VirtualizedContainerService.HintSize="353.6,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;REC&quot;]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="353.6,113.6" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="CSE ARPA Lab" />
   </Sequence>
 </Activity>
